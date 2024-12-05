@@ -40,7 +40,7 @@ const UsePhases = () => {
         prevPhases.filter((phase) => phase.id !== phaseId)
       );
       setIsLoading(false);
-    } catch (e) {
+    } catch {
       setIsLoading(false);
       toaster.error({
         title: "Failed",
@@ -58,7 +58,7 @@ const UsePhases = () => {
           prevPhases.map((p) => (p.id === phase.id ? phase : p))
         );
         setIsLoading(false);
-      } catch (e) {
+      } catch {
         setIsLoading(false);
         toaster.error({
           title: "Failed",
@@ -76,7 +76,7 @@ const UsePhases = () => {
         const phases = await getApi().getPhasesByProjectId(activeProject!.id);
         setPhases(phases);
         setIsLoading(false);
-      } catch (e) {
+      } catch {
         setIsLoading(false);
       }
     };

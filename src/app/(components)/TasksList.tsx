@@ -1,9 +1,10 @@
 import { VStack } from "@chakra-ui/react";
 import { TaskListTile } from "./TaskListTile";
 import { CreateTaskDto } from "@/types/requests/create-task-dto";
+import { Task } from "@/types/interfaces/task";
 
 type Props = {
-  tasks: Array<any>;
+  tasks: Array<Task>;
   onEdit: (taskId: string, data: CreateTaskDto) => Promise<boolean>;
   onDelete: (id: string) => void;
 };

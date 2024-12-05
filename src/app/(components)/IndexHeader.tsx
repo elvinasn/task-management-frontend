@@ -54,7 +54,7 @@ const IndexHeader = ({
                     description: "Project created successfully",
                   });
                   return true;
-                } catch (e) {
+                } catch {
                   toaster.error({
                     title: "Error",
                     description: "Failed to create project",

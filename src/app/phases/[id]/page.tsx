@@ -13,7 +13,9 @@ import { useParams } from "next/navigation";
 
 const PhaseScreen = () => {
   const { id } = useParams();
-
+  const { openDialog } = useTaskFormDialog();
+  const { openDialog: openPhaseDialog } = usePhaseFormDialog();
+  const { openDialog: openDeleteDialog } = useConfirmationDialog();
   const {
     phase,
     tasks,
@@ -31,9 +33,6 @@ const PhaseScreen = () => {
       </Center>
     );
   }
-  const { openDialog } = useTaskFormDialog();
-  const { openDialog: openPhaseDialog } = usePhaseFormDialog();
-  const { openDialog: openDeleteDialog } = useConfirmationDialog();
 
   return (
     <Flex flexDir="column" align="center">

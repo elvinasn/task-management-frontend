@@ -72,7 +72,6 @@ const TaskFormDialog = ({
         errors,
         touched,
         handleSubmit,
-        setFieldValue,
       }) => (
         <DialogRoot
           open={isOpen}

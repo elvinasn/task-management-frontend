@@ -81,7 +81,7 @@ export const ProjectsProvider: React.FC<ProjectsProviderProps> = ({
         title: "Success",
         description: "Project removed successfully",
       });
-    } catch (e) {
+    } catch {
       toaster.error({
         title: "Error",
         description: "Failed to remove project",
@@ -106,7 +106,7 @@ export const ProjectsProvider: React.FC<ProjectsProviderProps> = ({
         description: "Project updated successfully",
       });
       return true;
-    } catch (e) {
+    } catch {
       toaster.error({
         title: "Error",
         description: "Failed to update project",
