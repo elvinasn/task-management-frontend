@@ -44,7 +44,7 @@ export default function Home() {
             onDelete={onDelete}
           />
         )}
-        <PhasesList phases={phases} />
+        {activeProject && <PhasesList phases={phases} />}
         {activeProject && <NewPhaseButton onSubmit={addPhase} />}
       </Flex>
     </Flex>
