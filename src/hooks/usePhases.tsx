@@ -71,6 +71,7 @@ const UsePhases = () => {
 
   useEffect(() => {
     const fetchPhases = async () => {
+      if (!activeProject) setPhases([]);
       try {
         setIsLoading(true);
         const phases = await getApi().getPhasesByProjectId(activeProject!.id);
