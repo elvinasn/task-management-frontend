@@ -61,3 +61,8 @@ Sistemos paskirtis yra suteikti įrankį projektų valdymui, kuris padeda komand
 ### Debesų technologijos:
 
 - **Platforma**: Railway.app
+
+## Diegimo diagrama
+
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/2500bc55-cacb-4130-8a60-cb25933d5789" />
+
