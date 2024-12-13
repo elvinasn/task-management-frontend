@@ -72,3 +72,6 @@ https://task-management-backend-production-4f99.up.railway.app/api
 
 ## Naudotojo sąsaja
 https://www.figma.com/design/6kxXP3OvbMoPE6ifmJpzS1/Saitynai
+
+## Projekto išvados
+Darbas pavyko sėkmingai, buvo susipažinta su REST API principais.
