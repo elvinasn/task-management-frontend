@@ -56,7 +56,7 @@ Sistemos paskirtis yra suteikti įrankį projektų valdymui, kuris padeda komand
 ### Frontend:
 
 - **Programavimo kalba**: TypeScript
-- **Karkasas**: NestJS
+- **Karkasas**: NextJS
 
 ### Debesų technologijos:
 
@@ -64,7 +64,11 @@ Sistemos paskirtis yra suteikti įrankį projektų valdymui, kuris padeda komand
 
 ## Diegimo diagrama
 
-<img width="782" alt="image" src="https://github.com/user-attachments/assets/2500bc55-cacb-4130-8a60-cb25933d5789" />
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/f8e29ad9-a5dc-4d75-bfe3-91a8bb2e0b02" />
+
 
 ## API specifikacija
 https://task-management-backend-production-4f99.up.railway.app/api
+
+## Naudotojo sąsaja
+https://www.figma.com/design/6kxXP3OvbMoPE6ifmJpzS1/Saitynai
